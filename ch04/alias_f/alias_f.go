@@ -3,5 +3,7 @@ package main
 import f "fmt"
 
 func main() {
-	f.Println("Hello from the alias f!")
+	f.Println(s)
 }
+
+const s = "Hello from fmt aliased as f!"
