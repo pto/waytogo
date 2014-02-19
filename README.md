@@ -1,0 +1,4 @@
+wayofgo
+=======
+
+Experiments with Go
