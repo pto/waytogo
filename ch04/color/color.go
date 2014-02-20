@@ -22,4 +22,6 @@ func main() {
 	fmt.Println("c1+1 is", c1+1)
 	// ERROR: fmt.Println("c1 == c2 is", c1 == c2)
 	// ERROR: fmt.Println("c1+c2 is", c1+c2)
+	var c2 int = int(c1)
+	fmt.Println("c2 is", c2)
 }
