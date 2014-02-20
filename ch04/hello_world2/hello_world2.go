@@ -11,6 +11,7 @@ var _, _ = fmt.Println("var count in package main")
 func main() {
 	fmt.Printf("Καλημέρα κόσμε; or こんにちは 世界\n")
 	demo.Thing()
+	fmt.Println(part2)
 }
 
 func init() {
